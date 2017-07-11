@@ -1,9 +1,9 @@
-name: parallel
+name: parallel-tutorial
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python =3.5
+  - python=3.5
   - bokeh
   - cloudpickle=0.2.2=py35_0
   - dask
@@ -12,7 +12,7 @@ dependencies:
   - joblib
   - jupyter
   - matplotlib
-  - pandas =0.19
+  - pandas=0.19
   - pandas-datareader
   - pytables
   - scikit-learn
